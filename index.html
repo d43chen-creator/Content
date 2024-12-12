@@ -32,25 +32,69 @@
       padding-left: 1em;
     }
     .layout{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      margin-top: 30px;
+      text-align: center;
+      flex-direction: column;
       font-family: "Poppins", serif;
       font-weight: 500;
       font-style: normal;
-      font-size: 16px;
-      margin-left: 30%;
-      margin-top: 50px;
+      font-size: 20px;
     }
-    .layout img{
+    .layout h1 p{
+      margin-bottom: 20px;
+    }
+    .rect1{
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      width: 500px;
+      height: 30px;
+      background-color: #e6e7e8;
+      z-index: -1;
+    }
+    .rect2{
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      width: 500px;
+      height: 30px;
+      background-color: #e6e7e8;
+      z-index: -1;
+    }
+    .rect3{
+      z-index: -1;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      width: 500px;
+      height: 200px;
+      background-color: #e6e7e8;
+      margin-bottom: 20px;
+    }
+    .rect4{
+      margin-top: -420px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+      height: 450px;
+      z-index: -1;
       border-radius: 15px;
       border: 4px solid #231f20;
+    }
+    #submit{
+      display: inline-block;
+      list-style: none;
+      border-radius: 10px;
+      border: 2px solid #231f20;
+      padding: 5px 20px;
+      text-decoration: none;
+      color: #231f20;
+      font-size: 20px;
     }
     h1{
       font-size: 40px;
       margin-right: auto;
     }
-    
     nav{
       display: flex;
       align-items: center;
@@ -80,11 +124,12 @@
     nav li:hover{
       background: #231f20;
     }
-    #about{
+    #contact{
       font-size: 50px;
       font-family: "Bebas Neue", sans-serif;
       font-weight: 400;
       font-style: normal;
+      margin-bottom: 20px;
     }
     .rectangle{
       width: 600px;
@@ -113,6 +158,41 @@
             <li><a href="https://d43chen-creator.github.io/Content/">Contact</a></li>
           </ul>
         </nav>
+      </div>
+    </div>
+    <div class="layout">
+      <h1 id="contact">
+        Contact
+      </h1>
+      <p>
+        Full Name 
+      </p>
+      <div class="rect1">
+      </div>
+      <p>
+        Email
+      </p>
+      <div class="rect2">
+      </div>
+      <p>
+        Comment
+      </p>
+      <div class="rect3">
+      </div>
+      <a href="Submit" id="submit">Submit</a>
+      <div class="rect4">
+      </div>
+      <div class="layout">
+        <p>
+          647-678-9339
+        </p>
+        <a href="mailto:d43chen@uwaterloo.ca">d43chen@uwaterloo.ca</a>
+        <p>
+          101 Longisland Crescent 
+        </p>
+        <p>
+          Markham, ON, L3P 7L7
+        </p>
       </div>
     </div>
   </body>
